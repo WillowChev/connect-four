@@ -18,15 +18,36 @@ button {
     font-size: xx-large;
     border-radius: 4px; 
     padding: 10px;
-
 }
 
 .img-wrapper {
     margin-bottom: 20px;
+    display: none;
 }
 
 img {
     width: 300px;
     display: inline-block;
-    display: none;
+}
+
+p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+a {
+    display: inline-block;
+    border: 5px dotted #3d5f10;
+    padding: 0 4px;
+    transition: transform .5s ease;
+    color: cadetblue;
+}
+
+a:hover {
+    transform: rotate(15deg) scale(1.2);
+    transform-origin: center center;
+}
+
+a.no {
+    border-color: #733f15;
 }
