@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: darkolivegreen;
+}
+button {
+    border: 3px dashed darkslategrey;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: xx-large;
+    border-radius: 4px; 
+    padding: 10px;
+
+}
+
+.img-wrapper {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    display: inline-block;
+    display: none;
+}
